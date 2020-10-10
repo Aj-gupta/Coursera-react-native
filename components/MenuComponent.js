@@ -20,7 +20,7 @@ class Menu extends Component{
 
         return (           
             <ListItem key={index} onPress={()=> navigate('Dishdetail',{dishId:item.id})}>
-              <Avatar source={{source: require('./images/uthappizza.png')}} />
+              <Avatar source={require('./images/uthappizza.png')} />
               <ListItem.Content>
                 <ListItem.Title>{item.name}</ListItem.Title>
                 <ListItem.Subtitle>{item.description}</ListItem.Subtitle>
