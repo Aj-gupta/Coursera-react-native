@@ -11,10 +11,6 @@ class Menu extends Component{
       }
     }
 
-    // static navigationOptions = {
-    //   title: 'Menu'
-    // };
-
     render(){
       const renderMenuItem = ({item, index}) => {
 
@@ -43,7 +39,7 @@ class Menu extends Component{
 
 export default Menu;
 
- // <ListItem
+// <ListItem
 //     key={index}
 //     title={item.name}
 //     subtitle={item.description}
